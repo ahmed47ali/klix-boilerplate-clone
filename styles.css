@@ -32,11 +32,13 @@ margin: 5px;
 }
 
 .nav__links {
-    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .nav__links li{
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     padding: 0px 20px;
 }
@@ -98,43 +100,72 @@ button {
     margin: 1px;
     padding: 1px;
 }
-.hashtags__li li{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
 
-}
+
+
 .hashtag__links {
     display: flex;
-    justify-content: start;
-    margin: 5px;
-    padding: 10px;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
-    border-color: rgb(229 231 235);
+    justify-content: center;
+    padding: 1px;
+    list-style: none;
+
+
+
 
 }
+
+.wrap-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main__news {
     margin: 10px;
+    padding: 10px;
     border: 1px solid;
 
-
 }
+
+
 .boja-vijesti{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: red;
+    display: block;
+    text-align: center;
+
 }
 .breaking-news {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+text-align: center;
+    display: block;
+}
+.img1 {
+    align-items: center;
+
+}
+
+.breaking-news-photo{
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    text-align: center;
+    display: block;
+}
+.img2{
+    display: block;
+
 }
 .politicka-ubistva{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 22px;
+    color: red;
 }
 .politika{
     font-family: sans-serif;
@@ -146,6 +177,10 @@ button {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    text-align: center;
+    display: block;
 
 }
 .scene {
@@ -153,8 +188,22 @@ button {
     font-weight: bold;
     font-size: 22px;
     color: red;
+    display: block;
+    text-align: left;
+
+
 }
-.wrap {
-    display: flex;
-    justify-content: space-evenly;
+
+.img3{
+    display: block;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
 }
