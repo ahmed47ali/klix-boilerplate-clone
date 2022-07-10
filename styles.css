@@ -11,21 +11,24 @@ li, a, button {
     font-size: 20px;
     color: #000;
     text-decoration: none;
+    margin: 10px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20%;
     border-bottom: 1px solid;
     border-color: rgb(229 231 235);
-
+    padding: 10px;
+margin: 5px;
 }
 
 .logo {
     cursor: pointer;
-    width: 200px;
+    width: 150px;
+    text-align: center;
+
 }
 
 .nav__links {
@@ -34,6 +37,7 @@ header {
 
 .nav__links li{
     display: inline-block;
+    justify-content: space-between;
     padding: 0px 20px;
 }
 
@@ -63,7 +67,8 @@ button:hover{
     -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
+    justify-content: end;
 }
 
 input {
@@ -84,13 +89,72 @@ button {
     font-weight: 400;
     color: #ffffff;
     cursor: pointer;
-    text-align: center;
     user-select: none;
     border: 1px solid transparent;
-    padding: .5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
     border-radius: 0 .3rem .3rem 0;
-    background-color: #007bff;
     outline: 0;
+    margin: 1px;
+    padding: 1px;
+}
+.hashtags__li li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+.hashtag__links {
+    display: flex;
+    justify-content: start;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: rgb(229 231 235);
+
+}
+.main__news {
+    margin: 10px;
+    border: 1px solid;
+
+
+}
+.boja-vijesti{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+.breaking-news {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.politicka-ubistva{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.politika{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.breaking-news-three {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.scene {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+}
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
 }
