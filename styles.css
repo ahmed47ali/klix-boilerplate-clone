@@ -20,27 +20,30 @@ header {
     align-items: center;
     border-bottom: 1px solid;
     border-color: rgb(229 231 235);
-    padding: 10px;
-margin: 5px;
+    padding: 0;
+
+
 }
 
 .logo {
     cursor: pointer;
     width: 150px;
     text-align: center;
+    margin-left: 20%;
 
 }
 
 .nav__links {
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    margin-right: 20%;
+
 }
 
 .nav__links li{
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 5px;
 }
 
 .nav__links li a {
@@ -118,6 +121,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .main__news {
