@@ -154,7 +154,7 @@ button {
     font-weight: bold;
     font-size: 20px;
     color: red;
-    display: block;
+    display: flex;
     text-align: center;
 
 }
@@ -164,17 +164,16 @@ button {
     font-size: 22px;
     border: 1px solid;
     border-color: rgb(229 231 235);
-text-align: center;
     display: block;
+    justify-content: center;
 }
 
 
 .breaking-news-photo{
     border: 1px solid;
     border-color: rgb(229 231 235);
-    text-align: center;
+    justify-content: center;
     display: flex;
-
 }
 .title1 {
     font-family: sans-serif;
@@ -196,8 +195,10 @@ text-align: center;
     font-size: 22px;
     border: 1px solid;
     border-color: rgb(229 231 235);
-    text-align: center;
+    justify-content: center;
     display: block;
+
+
 
 }
 .scene {
@@ -218,10 +219,8 @@ text-align: center;
     grid-template-rows: auto auto auto auto;
     grid-column-gap: 0;
     grid-row-gap: 0;
+    flex-wrap: wrap;
 
-}
-.container breaking-news-photo {
-    grid-column: 2/3;
 }
 
 .container-news {
@@ -241,28 +240,19 @@ text-align: center;
 
 }
 
-.photo {
+.photo img{
+    width: 70%;
     grid-area: photo;
-}
-.photo>img{
-    object-fit: cover;
-    width: 100%;
+    position: relative;
+    align-items: end;
 }
 
 
-.photo2>img{
-    object-fit: cover;
-
-}
-
-.photo3>img{
-    object-fit: cover;
-    width: 100%;
-}
 
 .text-wrap{
     width: 100%;
     position: relative;
+
 
 }
 .text-wrap span{
@@ -280,4 +270,76 @@ text-align: center;
     border-color: rgb(229 231 235);
 
 }
+.breaking-news-four {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
 
+.breaking-news-four span{
+    color: red;
+}
+
+
+.breaking-news-five {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+.photo5 img {
+    grid-area: photo;
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+
+}
+
+.breaking-news-five span{
+    color: red;
+
+}
+
+.breaking-news-six {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+
+.breaking-news-six span{
+    color: red;
+}
+
+.breaking-news-seven {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+.breaking-news-seven span {
+    color:red;
+}
+
+.separate-nav {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid black;
+}
+
+.separate-nav li {
+    list-style: none;
+}
