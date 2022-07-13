@@ -137,8 +137,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
 }
 
 .main__news {
@@ -216,12 +217,12 @@ button {
 .container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
     grid-column-gap: 0;
     grid-row-gap: 0;
     flex-wrap: wrap;
 
 }
+
 
 .container-news {
     font-family: sans-serif;
@@ -337,9 +338,85 @@ button {
 .separate-nav {
     display: flex;
     justify-content: start;
-    border-bottom: 1px solid black;
+    font-family: sans-serif;
+
 }
 
 .separate-nav li {
     list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    width: 1280px;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+
+.breaking-news-eight {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+
+.breaking-news-eight span{
+    color: red;
+}
+.breaking-news-nine {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+.breaking-news-nine span{
+    color: red;
+}
+
+.breaking-news-ten {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+
+.breaking-news-ten span{
+    color: red;
+}
+
+.breaking-news-eleven {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    display: block;
+    justify-content: center;
+}
+
+.breaking-news-eleven span {
+    color: red;
+}
+
+.side-news {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 1px solid;
+    border-color: rgb(229 231 235);
+    justify-content: center;
+}
+
+.side-news span {
+    color: red;
 }
