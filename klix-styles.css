@@ -32,6 +32,76 @@ body {
 
 }
 
+.box {
+    margin-top: 5px;
+    background-color: rgb(211, 61, 61);
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-2 {
+    margin-top: 5px;
+    background-color: green;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-3 {
+    margin-top: 5px;
+    background-color: orange;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-4 {
+    margin-top: 5px;
+    background-color: purple;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-5 {
+    margin-top: 5px;
+    background-color: olive;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-6 {
+    margin-top: 5px;
+    background-color: dodgerblue;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-7 {
+    margin-top: 5px;
+    background-color: royalblue;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-8 {
+    margin-top: 5px;
+    background-color: gray;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-9 {
+    margin-top: 5px;
+    background-color: cornflowerblue;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+.box-10 {
+    margin-top: 5px;
+    background-color: dimgray;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
 
 .navigation {
     display: flex;
