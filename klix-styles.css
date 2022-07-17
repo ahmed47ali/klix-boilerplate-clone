@@ -59,14 +59,14 @@ body {
 }
 .box-2 {
     margin-top: 5px;
-    background-color: green;
+    background-color: darkorange;
     width: 12px;
     height: 12px;
     border-radius: 2px;
 }
 .box-3 {
     margin-top: 5px;
-    background-color: orange;
+    background-color: green;
     width: 12px;
     height: 12px;
     border-radius: 2px;
@@ -135,6 +135,10 @@ body {
 .photo {
     width: 100%;
 }
+
+.photo-2 {
+    width: 100%;
+}
 .item {
     padding: 10px;
     border: 1px solid;
@@ -163,6 +167,13 @@ flex-grow: 1;
 
 }
 
+.item-3{
+    padding: 10px;
+    border: 1px solid;
+    border-color: rgb(229 231 235);
+    flex-grow: 1;
+}
+
 .naslov {
     color: red;
 }
@@ -173,6 +184,25 @@ flex-grow: 1;
     grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 10px;
 
+
+}
+
+.content-2 {
+    display: grid;
+    justify-content: center;
+    margin: 25px;
+    width: 1200px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 10px;
+
+}
+.content-3 {
+    display: grid;
+    justify-content: center;
+    margin: 25px;
+    width: 1200px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 10px;
 
 }
 
@@ -197,7 +227,6 @@ flex-grow: 1;
     width: 300px;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -257,3 +286,77 @@ flex-grow: 1;
     cursor: pointer;
     font-size: 20px;
 }
+
+.wrapper-1 {
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.wrapper-2 {
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.box-vijesti {
+    padding-right: 10px;
+    margin-top: 4px;
+    margin-right: 10px;
+    background-color: rgb(211, 61, 61);
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+.box-vijesti-2 {
+    padding-right: 10px;
+    margin-top: 4px;
+    margin-right: 10px;
+    background-color: orange;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+.box-vijesti-3 {
+    padding-right: 10px;
+    margin-top: 4px;
+    margin-right: 10px;
+    background-color: green;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.sidebar-2 {
+    grid-row: 1/span 2;
+    grid-column: 5;
+
+}
+
+.sidebar-content-2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+
+}
+
+
+.sidebar-content-2 > div {
+    color: red;
+    border-top: 1px solid gray;
+    padding: 20px;
+
+}
+
