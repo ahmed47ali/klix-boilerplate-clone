@@ -20,6 +20,7 @@ body {
     cursor: pointer;
 }
 .wrapper{
+margin: 25px;
     display: flex;
     justify-content: center;
 
@@ -27,7 +28,7 @@ body {
 }
 .navbar {
     max-width: 1200px;
-    width: 750px;
+    width: 800px;
     margin-top: 20px;
     display: flex;
     height: 60px;
@@ -180,9 +181,6 @@ flex-grow: 1;
     flex-grow: 1;
 }
 
-.naslov {
-    color: red;
-}
 .content {
 
     display: grid;
@@ -211,20 +209,12 @@ flex-grow: 1;
     grid-column-gap: 10px;
 
 }
-.content-4 {
+
+.content-3 {
     display: grid;
     justify-content: center;
     margin: 25px;
-    width: 1200px;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-column-gap: 10px;
-
-}
-.content-5 {
-    display: grid;
-    justify-content: center;
-    margin-left: 55px;
-    width: 1570px;
+    width: 1510px;
     grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 10px;
 
@@ -320,9 +310,30 @@ flex-grow: 1;
     cursor: pointer;
     font-size: 20px;
 }
+.container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 22px;
+
+
+}
+.container-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 22px;
+
+
+}
 
 .wrapper-1 {
-    margin-left: 12.5%;
+    margin-left: 17%;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -330,33 +341,7 @@ flex-grow: 1;
     font-size: 20px;
 
 }
-.wrapper-2 {
-    margin-left: 12.5%;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 20px;
 
-}
-.wrapper-3 {
-    margin-left: 11%;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 20px;
-
-}
-.wrapper-4 {
-    margin-left: 11%;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 20px;
-
-}
 
 .box-vijesti {
     padding-right: 10px;
