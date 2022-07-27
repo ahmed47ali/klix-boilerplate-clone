@@ -5,6 +5,107 @@
 }
 
 body {
+    background-color: gray;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 8px 0px 8px 0px;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 10px auto 10px auto;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 80px;
+    height: 40px;
+
+}
+
+
+gi
+
+.box-dimgray {
+    background-color: dimgray;
+}
+
+.box-orange {
+    background-color: orange;
+}
+
+.box-green {
+    background-color: green;
+}
+.box-purple {
+    background-color: purple;
+}
+
+.box-olive {
+    background-color: olive;
+}
+
+.box-dodgerblue {
+    background-color: dodgerblue;
+}
+
+.box-royalblue {
+    background-color: royalblue;
+}
+
+.box-gray {
+    background-color: gray;
+}
+.box-cornflowerblue{
+    background-color: cornflowerblue;
+}
+
+.search {
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+
+}
+
+.searchButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00B4CC;
+    background: deepskyblue;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     margin-right: 20%;
     margin-left: 10%;
 }
@@ -444,3 +545,4 @@ flex-grow: 1;
 
 }
 
+*/
