@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADVANCED CSS</title>
+    <link rel="stylesheet" href="training.css">
+
+
+    <style>
+ /*    div{
+         position: relative;
+         text-align: center;
+         width: 350px;
+         height: 200px;
+         border: 1px solid gray;
+         color: #fff;
+         margin: 50px auto;
+         padding: 20px;
+
+       !*  background-image: url(img/klix1.jpg);
+         background-repeat: no-repeat;*!
+         !*
+         background-size: 200px;
+         *!
+         !*background-size: contain;*!
+        !* background-origin: border-box;
+         background-clip: content-box;*!
+        !* background: green url("img/klix1.jpg") no-repeat center fixed;*!
+        !* background:url("img/klix1.jpg") no-repeat;*!
+     }*/
+/*.bottom-left{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+
+
+}*/
+ /*
+ .gradient {
+     width: 300px;
+     height: 280px;
+     !*border: 5px solid black;*!
+     margin: 100px auto;
+     !*background-image: linear-gradient(to left, yellow, green, red);*!
+     background: url("img/klix1.jpg") no-repeat center /cover;
+ }
+ */
+.heading{
+    font-family: sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #555;
+    text-shadow: 30px 40px 10px #888;
+}
+ .card{
+     width: 400px;
+     margin: 100px auto;
+     background-color: #ccc;
+     padding: 5px;
+     text-align: center;
+     box-shadow: 10px 10px 20px #777;
+
+ }
+
+/* .card:hover {
+     box-shadow: 10px 10px 20px #aaa;
+ }*/
+
+ .card img{
+     width: 100%;
+ }
+
+/* .box {
+     width: 200px;
+     height: 200px;
+     background-color: orangered;
+     transition-property: width;
+     transition-duration: 1s;
+     !*transition-delay: 1s;*!
+     transition: width 1s ease-in, background-color 5s;
+ }
+
+ .box:hover{
+     width: 400px;
+     background-color: green;
+ }*/
+
+ .box {
+     position: relative;
+     width: 200px;
+     height: 200px;
+     background-color: orangered;
+     font-size: 60px;
+     color: #fff;
+     /*text-align: center;
+     margin: 150px auto;
+     padding-top: 55px;*/
+     /*
+     box-sizing: border-box;
+     */
+     /*transition: transform 1s;*/
+     /*
+     animation-name: anim;
+     */
+     /*
+     animation-duration: 4s;
+     */
+    /* animation-delay: 2s;*/
+    /* animation-iteration-count: 1;
+     animation-direction:alternate-reverse;
+     animation-timing-function: linear;*/
+     /*animation-fill-mode: both;*/
+     animation: anim 4s ease-in 2s infinite alternate both;
+ }
+
+ .box:hover{
+     /*
+     transform: translate(100px, 200px);
+     */
+    /* transform: rotate(-90deg);*/
+     /*transform: scaleY(.5);*/
+     /*transform: skew(30deg, 20deg);*/
+     /*transform: rotateX(100deg);*/
+
+ }
+@keyframes anim {
+    0% {
+        left: 300px;
+        top: 0;
+        background-color: orangered;
+    }
+    25% {
+        left: 500px;
+        top: 0;
+        background-color: green;
+    }
+    50% {
+        left: 500px;
+        top: 500px;
+        background-color: goldenrod;
+    }
+    75% {
+        left: 500px;
+        top: 0px;
+        background-color: royalblue;
+    }
+    100% {
+        left: 0;
+        top: 300px;
+        background-color: orangered;
+    }
+}
+    </style>
+
+</head>
+<body>
+
+<h1 class="heading">Ninjas attacking from shadow</h1>
+
+<div class="card">
+    <img src="img/klix1.jpg" alt="klix1">
+    <h2>My Class</h2>
+</div>
+
+<!--<div>
+    <h1 class="bottom-left">Hello world! This is how text over image works.</h1>
+</div>-->
+
+<!--
+<div class="gradient"></div>
+-->
+
+<!--<div class="box"></div>-->
+
+<div class="box">BOX</div>
+</body>
+</html>

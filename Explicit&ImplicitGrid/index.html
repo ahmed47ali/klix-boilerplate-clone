@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .container{
+            width: 800px;
+            background-color: #efefef;
+            margin:40px auto;
+            display: grid;
+            grid-template-columns:repeat(auto-fit, minmax(80px, 1fr));
+           /* grid-template-rows: 150px 150px;
+            grid-gap: 1rem;
+*/
+        }
+        .item {
+            font-size: 2rem;
+            background-color: royalblue;
+            color: #fff;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item item-3">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+</div>
+</body>
+</html>
