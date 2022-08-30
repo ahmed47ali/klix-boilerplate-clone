@@ -116,6 +116,23 @@ body{
     border-color: rgb(229, 231, 235);
     box-sizing: border-box;
 }
+.breaking-news-grid-5 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 7 / 8;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: 300px;
+    width: 260px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 8px;
+    border-color: rgb(229, 231, 235);
+    box-sizing: border-box;
+}
 
 
 
@@ -406,6 +423,10 @@ body{
     border-radius: 2px;
 }
 
+.box-darkorange {
+    background-color: darkorange;
+}
+
 .box-red {
     background-color: red;
 }
@@ -425,8 +446,17 @@ body{
     background-color: purple;
 }
 
+.box-goldenrod {
+    background-color: goldenrod;
+}
+
+
 .box-olive {
     background-color: olive;
+}
+
+.box-steelblue {
+    background-color: steelblue;
 }
 
 .box-dodgerblue {
