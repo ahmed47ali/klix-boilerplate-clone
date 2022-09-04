@@ -13,7 +13,7 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100%
     border: 1px solid;
     border-color: rgb(229 231 235);
 }
@@ -223,7 +223,7 @@ body{
     flex-shrink: 1;
     flex-basis: 0%;
     height: 350px;
-    width: 250px;
+    width: 255px;
     text-align: left;
     font-weight: bold;
     font-size: 15px;
@@ -272,7 +272,7 @@ body{
     flex-shrink: 1;
     flex-basis: 0%;
     height: 300px;
-    width: 250px;
+    width: 260px;
     text-align: left;
     font-weight: bold;
     font-size: 15px;
@@ -291,7 +291,7 @@ body{
     flex-shrink: 1;
     flex-basis: 0%;
     height: 300px;
-    width: 250px;
+    width: 260px;
     text-align: left;
     font-weight: bold;
     font-size: 15px;
@@ -320,7 +320,7 @@ body{
     box-sizing: border-box;
 }
 
-.conent-news-7 {
+.content-news-7 {
     display: flex;
     grid-row: 2 / 3;
     grid-column: 7 / 8;
@@ -342,6 +342,7 @@ body{
     grid-row: 1 / 4;
     grid-column: 9 / 11;
 
+
 }
 .sidebar-2 {
     grid-column: 9 / 10;
@@ -356,7 +357,7 @@ body{
     flex-direction: column;
     font-family: sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: start;
 }
 
@@ -434,8 +435,8 @@ body{
 }
 
 .logo{
-    width: 20px;
-    height: 10px;
+    width: 40px;
+    height: 20px;
 
 }
 
@@ -544,4 +545,56 @@ body{
 }
 .box-cornflowerblue{
     background-color: cornflowerblue;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+
+}
+
+.footer-list {
+    width: 1280px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icons-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.social-icons {
+    display: flex;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icons-content {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.copyrights-wrapper {
+    width: 100%;
+}
+.copyrights-title {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    margin-top: 40px;
 }
