@@ -23,7 +23,6 @@
 <body>
 
 <div class="container">
-    <img src="img/klix-logo.jpg" alt="logo" class="logo">
     <div class="items">
         <div class="box box-red"></div>
         <div>Vijesti</div>
@@ -45,6 +44,30 @@
         <div>Marketing</div>
         <div class="box box-dimgray"></div>
         <div>Forum</div>
+        <form class="navigation-search">
+            <button class="navigation-search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <div class="main-form-wrapper">
+        <input type="checkbox" id="show-hide-forms">
+        <div class="forms-wrapper">
+            <label for="show-hide-forms" class="x-btn">&#10005</label>
+            <input type="checkbox" id="show-form">
+            <form class="signup-form">
+                <div>korisnicko ime ili e-mail adresa</div>
+                <input type="text" class="form-input" placeholder="">
+                <div>Lozinka</div>
+                <input type="password" class="form-input" placeholder="">
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <div class="remember-me-space">Zapamti me</div>
+                    <div class="forgotten-password">Zaboravljena lozinka?</div>
+                </div>
+                <input type="submit" value="Prijavi se" class="form-btn">
+            </form>
+        </div>
+        </div>
     </div>
     </div>
 

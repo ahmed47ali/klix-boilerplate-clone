@@ -8,6 +8,166 @@ body{
     background-color: rgb(243,244,246);
 }
 
+
+
+.navigation-search-btn {
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+.main-form-wrapper {
+    margin-left: 50px;
+}
+
+.forms-wrapper {
+    background-color: #eee;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 2rem;
+    border: .1rem solid #34598f;
+    border-radius: .3rem;
+    display: none;
+}
+
+.show-btn-wrapper {
+    display: flex;
+    padding: 1rem;
+}
+
+.show-form-btn  {
+    flex: 0 1 50%;
+    background-color: #12376e;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    border: .1rem solid #eee;
+    cursor: pointer;
+}
+
+.form-heading {
+    font-size: 2rem;
+    color: #12376e;
+    text-transform: uppercase;
+    padding: 1rem 0 0 .2rem;
+}
+
+.forms-wrapper form {
+    width: 50rem;
+    padding: 1rem;
+}
+
+.forms-wrapper form input:not(.form-btn) {
+    background-color: #fff;
+    color: #777777;
+    padding: 1.3rem;
+    margin: .3rem 0;
+    border: .2rem solid #eeeeee;
+    box-sizing: border-box;
+    outline:none;
+}
+
+.fullname-inputs-wrapper {
+    display: flex;
+}
+
+.fullname-inputs-wrapper input {
+    width: 50%;
+}
+
+.form-input {
+    width: 500px;
+    border-radius: 20px;
+}
+.remember-me {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.remember-me-space {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.forgotten-password {
+    margin-left: 100px;
+    color: blue;
+    margin-top: 5px;
+}
+.form-btn {
+    width: 35%;
+    background-color: #0062D3FF;
+    color: #fff;
+    letter-spacing: .3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: .5rem;
+}
+
+.x-btn {
+    font-size: 2rem;
+    color: #00154c;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 3.3rem;
+    right: 3.5rem;
+    cursor: pointer;
+}
+
+.login-form {
+    display: none;
+}
+
+.show-signup-form {
+    color: #888888;
+    background-color: #34598f;
+    pointer-events: none;
+}
+
+#show-form:checked ~ .show-btns-wrapper
+.show-login-form {
+    color: #000;
+    background-color: #34598f;
+    pointer-events: none;
+}
+#show-form:checked ~ .show-btns-wrapper
+.show-signup-form {
+    color: #fff;
+    background-color: #12376e;
+    pointer-events: initial;
+}
+
+#show-form:checked ~ .signup-form {
+    display: none;
+}
+#show-form:checked ~ .login-form {
+    display:block;
+}
+
+#show-hide-forms:checked ~ .forms-wrapper {
+    display: block;
+    animation: anim .5s;
+}
+
+#show-hide-forms:checked ~ .container {
+    pointer-events: none;
+    opacity: .6;
+}
+
+.first-nav-link label {
+    cursor: pointer;
+}
+
 .container {
     padding: 20px 0;
     background-color: white;
