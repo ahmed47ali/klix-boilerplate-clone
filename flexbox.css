@@ -20,17 +20,18 @@ body{
 }
 .main-form-wrapper {
     margin-left: 50px;
+
 }
 
 .forms-wrapper {
-    background-color: #eee;
+    background-color: #fff;
     position: fixed;
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     padding: 2rem;
-    border: .1rem solid #34598f;
+    border: .1rem solid #eee;
     border-radius: .3rem;
     display: none;
 }
@@ -49,7 +50,7 @@ body{
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
-    border: .1rem solid #eee;
+    border: transparent;
     cursor: pointer;
 }
 
@@ -61,8 +62,10 @@ body{
 }
 
 .forms-wrapper form {
-    width: 50rem;
+    width: 30rem;
+    height: 30rem;
     padding: 1rem;
+
 }
 
 .forms-wrapper form input:not(.form-btn) {
@@ -82,10 +85,34 @@ body{
 .fullname-inputs-wrapper input {
     width: 50%;
 }
+.social-media-form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.social-media-form-border {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: blue;
+}
+.social-media-form-border-1 {
+
+    font-size: 20px;
+    color: blue;
+}
+
+.form-split-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
 .form-input {
-    width: 500px;
-    border-radius: 20px;
+    width: 450px;
+    height: 10px;
+    border-radius: 10px;
+
 }
 .remember-me {
     display: flex;
@@ -99,27 +126,26 @@ body{
 }
 
 .forgotten-password {
-    margin-left: 100px;
+    margin-left: 180px;
     color: blue;
     margin-top: 5px;
 }
 .form-btn {
-    width: 35%;
+    width: 100%;
     background-color: #0062D3FF;
     color: #fff;
-    letter-spacing: .3rem;
     padding: 1rem;
     border: none;
     border-radius: 10px;
-    margin-top: .5rem;
+    margin-top: 50px;
 }
 
 .x-btn {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #00154c;
     font-weight: bolder;
     position: absolute;
-    bottom: 3.3rem;
+    top: 2rem;
     right: 3.5rem;
     cursor: pointer;
 }
