@@ -195,11 +195,12 @@ body{
 }
 
 .container {
-    padding: 20px 0;
+    padding-top:10px;
+    height: 60px;
     background-color: white;
     display: flex;
     justify-content: center;
-    width: 100%
+    width: 100%;
     border: 1px solid;
     border-color: rgb(229 231 235);
 }
@@ -423,7 +424,7 @@ body{
     grid-column: 3 / 7;
     display: block;
     padding: 8px;
-    width: 100%;
+    width: 510px;
     border-color: rgb(229, 231, 235);
     background-image: url(img/klix2.jpg);
     background-repeat: no-repeat;
@@ -526,7 +527,7 @@ body{
 }
 .sidebar {
     grid-row: 1 / 4;
-    grid-column: 9 / 11;
+    grid-column: 9 / 12;
 
 
 }
@@ -575,11 +576,16 @@ body{
 }
 
 .sidebar-title {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid darkgray;
     margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .sidebar-subtitle {
-   padding-bottom: 5px;
+   padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: lighter;
+
 }
 
 
@@ -608,8 +614,13 @@ body{
 
 .items {
     display: flex;
-    max-width: 1280px;
+    max-width: 1980px;
     font-family: sans-serif;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: 10px;
+
    /* margin-left: auto;
     margin-right: auto;*/
 }
@@ -620,19 +631,18 @@ body{
     flex-grow: 1;
 }
 
-.logo{
-    width: 40px;
-    height: 20px;
 
-}
 
 .main {
 
     width: 1280px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 2px;
     margin-left: auto;
     margin-right: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
 }
 
 
@@ -640,12 +650,15 @@ body{
 .content {
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid;
     border-color: rgb(229 231 235);
 
+}
+
+.hashtag {
+    margin-right: 30px;
 }
 
 
@@ -674,11 +687,11 @@ body{
 
 
 .box {
-    margin-top: 1px;
-    margin-left: 10px;
+
+    margin-left: 18px;
     margin-right: 10px;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     border-radius: 2px;
 }
 
