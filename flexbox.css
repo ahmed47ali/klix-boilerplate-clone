@@ -419,6 +419,98 @@ body{
     border-color: rgb(229, 231, 235);
     box-sizing: border-box;
 }
+
+.comment-share-container {
+    display: flex;
+    margin-top: 70px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-2 {
+    display: flex;
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-3 {
+    display: flex;
+    margin-top: 40px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-4 {
+    display: flex;
+    margin-top: 17px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-icons {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .2rem;
+
+}
+.comment-share-icons-2 {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .2rem;
+
+}
+.comment-share-icons-3 {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .2rem;
+
+}
+.comment-share-icons-4 {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .2rem;
+
+}
+.comment-share-container-1 {
+    display: flex;
+    margin-top: 70px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+
+}
+
+.comment-share-items-1 {
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    bottom: -260px;
+    left: 10px;
+    font-weight: lighter;
+}
+.comment-share-icons-1 {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .5rem;
+    position: absolute;
+    bottom: -260px;
+    left: 430px;
+
+}
+.comment-share-icons-1 {
+    display: flex;
+    justify-content: end;
+    letter-spacing: .2rem;
+
+}
+
 .content-news-2 {
     font-size: 15px;
     grid-column: 3 / 7;
@@ -434,7 +526,6 @@ body{
 }
 
 .content-news-3 {
-
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -538,7 +629,7 @@ body{
 
 .sidebar-content {
     height: 650px;
-    padding: 8px;
+    padding: 20px;
     display: flex;
     overflow-y:scroll;
     flex-direction: column;
@@ -578,6 +669,7 @@ body{
 .sidebar-title {
     border-bottom: 1px solid darkgray;
     margin-bottom: 10px;
+    width: 300px;
     font-size: 12px;
     font-weight: bold;
 }
