@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'ClanPro-Cond', sans-serif;
+
+
 }
 
 body{
@@ -208,7 +211,7 @@ body{
 .wrapper {
     display: flex;
     width: 1280px;
-    font-family: sans-serif;
+    font-family: 'ClanPro-Cond', sans-serif;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -219,7 +222,7 @@ body{
     padding: 15px 0 15px 0;
     display: flex;
     width: 1280px;
-    font-family: sans-serif;
+    font-family: 'ClanPro-Cond', sans-serif;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid;
@@ -255,6 +258,7 @@ body{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
+    height: 350px;
 
 
 }
@@ -262,6 +266,7 @@ body{
     border: 1px solid;
     border-color: rgb(229 231 235);
     display: flex;
+    width: 320px;
     grid-column: 2 / 3;
     flex-direction: column;
     flex-grow: 1;
@@ -456,7 +461,7 @@ body{
 }
 .comment-share-container-5 {
     display: flex;
-    margin-top: 17px;
+    margin-top: 1px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -464,7 +469,7 @@ body{
 }
 .comment-share-container-6 {
     display: flex;
-    margin-top: 34px;
+    margin-top: 20px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -473,6 +478,22 @@ body{
 .comment-share-container-7 {
     display: flex;
     margin-top: 20px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-7 {
+    display: flex;
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-8 {
+    display: flex;
+    margin-top: 45px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -697,6 +718,9 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.title-2 {
+
+}
 
 .sidebar-title {
     border-bottom: 1px solid darkgray;
@@ -786,7 +810,19 @@ body{
 }
 
 
-
+.border-title{
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.border-title{
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.border-title-2{
+    padding-top: 20px;
+}
 
 .item {
 
