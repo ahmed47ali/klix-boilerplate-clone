@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'ClanPro-Cond', sans-serif;
-
-
 }
 
 body{
@@ -429,7 +427,7 @@ body{
 
 .comment-share-container {
     display: flex;
-    margin-top: 70px;
+    margin-top: 90px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -437,7 +435,7 @@ body{
 }
 .comment-share-container-2 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -445,7 +443,7 @@ body{
 }
 .comment-share-container-3 {
     display: flex;
-    margin-top: 40px;
+    margin-top: 45px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -453,7 +451,7 @@ body{
 }
 .comment-share-container-4 {
     display: flex;
-    margin-top: 17px;
+    margin-top: 37px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -461,7 +459,7 @@ body{
 }
 .comment-share-container-5 {
     display: flex;
-    margin-top: 1px;
+    margin-top: 40px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -469,7 +467,7 @@ body{
 }
 .comment-share-container-6 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 42px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
@@ -477,23 +475,32 @@ body{
 }
 .comment-share-container-7 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
     color: darkgray;
 }
-.comment-share-container-7 {
-    display: flex;
-    margin-top: 20px;
-    font-size: .8rem;
-    font-weight: lighter;
-    justify-content: space-between;
-    color: darkgray;
-}
+
 .comment-share-container-8 {
     display: flex;
     margin-top: 45px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-9 {
+    display: flex;
+    margin-top: 25px;
+    font-size: .8rem;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: darkgray;
+}
+.comment-share-container-10 {
+    display: flex;
+    margin-top: 55px;
     font-size: .8rem;
     font-weight: lighter;
     justify-content: space-between;
